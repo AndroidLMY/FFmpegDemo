@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         debug {
-            storeFile file('/Users/lmy/Desktop/testffmpeg.jks')
+            storeFile file('testffmpeg.jks')
             storePassword '123456'
             keyAlias = 'key0'
             keyPassword '123456'
